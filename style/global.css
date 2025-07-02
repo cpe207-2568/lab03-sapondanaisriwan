@@ -48,10 +48,3 @@ ul {
   max-height: 600px;
   overflow-y: auto;
 }
-
-.project-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  margin-bottom: 10px;
-}
