@@ -25,7 +25,7 @@
           <div class="d-flex justify-content-center">
             <img src="./img/me.jpg" alt="me" class="w-75 rounded-circle" />
           </div>
-          <h1 class="fs-3 text-center">Sapondanai Sriwan</h1>
+          <h1 class="fs-4 text-center">Sapondanai Sriwan</h1>
           <p class="text-center">“รักน้องแหมววว”</p>
           <div>
             <!-- Email -->
@@ -92,52 +92,141 @@
         </div>
       </section>
       <!-- Right -->
-      <section class="w-75 p-4 rounded-4 overflow-hidden">
-        <h2 class="text-color-primary">🥰 About Me</h2>
-        <p class="text-color-secondary">
-          I'm just an average high school student with a passion for
-          programming. I enjoy spending my free time exploring new technologies
-          and building projects that spark my curiosity.
-        </p>
-        <p class="text-color-secondary">
-          Whether it's a small tool to make my daily tasks easier or a creative
-          idea I want to bring to life, I love the process of learning and
-          creating something meaningful through code. There's something
-          incredibly rewarding about solving problems and seeing an idea turn
-          into a working program
-        </p>
-        <h2 class="text-color-primary">🚀 Hobby</h2>
-        <div id="hobby" class="d-flex flex-wrap gap-3">
-          <img
-            src="./img/water-color.jpg"
-            alt="water-color"
-            style="height: 160px; width: calc(50% - 1rem)"
-            class="object-fit-cover rounded-3"
-          />
-          <img
-            src="./img/getar.jpg"
-            alt="getar"
-            style="height: 160px; width: calc(50% - 1rem)"
-            class="object-fit-cover rounded-3"
-          />
-          <img
-            src="./img/computer.jpg"
-            alt="computer"
-            style="height: 160px; width: calc(33.33% - 1rem)"
-            class="object-fit-cover rounded-3"
-          />
-          <img
-            src="./img/cat.jpg"
-            alt="cat.jpg"
-            style="height: 160px; width: calc(33.33% - 1rem)"
-            class="object-fit-cover rounded-3"
-          />
-          <img
-            src="./img/book.jpg"
-            alt="book.jpg"
-            style="height: 160px; width: calc(33.33% - 1rem)"
-            class="object-fit-cover rounded-3"
-          />
+      <section class="w-75 p-4 rounded-4 overflow-hidden position-relative">
+        <!-- Tab -->
+
+        <div
+          class="d-flex justify-content-center position-absolute top-0 start-50 translate-middle-x"
+        >
+          <ul class="nav nav-tabs px-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link nav-active font-weight-bold"
+                id="about-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+              >
+                About
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="experience-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                Experience
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="gallery-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+              >
+                Gallery
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active mh-100 overflow-auto"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="about-tab"
+          >
+            <h2 class="mt-4 fs-4 text-color-primary">🥰 About Me</h2>
+            <p class="text-color-secondary">
+              I'm just an average high school student with a passion for
+              programming. I enjoy spending my free time exploring new
+              technologies and building projects that spark my curiosity.
+            </p>
+            <p class="text-color-secondary">
+              Whether it's a small tool to make my daily tasks easier or a
+              creative idea I want to bring to life, I love the process of
+              learning and creating something meaningful through code. There's
+              something incredibly rewarding about solving problems and seeing
+              an idea turn into a working program
+            </p>
+            <h2 class="fs-4 text-color-primary">🚀 Hobby</h2>
+            <div id="hobby" class="d-flex flex-wrap gap-3">
+              <img
+                src="./img/water-color.jpg"
+                alt="water-color"
+                style="height: 160px; width: calc(50% - 1rem)"
+                class="object-fit-cover rounded-3"
+              />
+              <img
+                src="./img/getar.jpg"
+                alt="getar"
+                style="height: 160px; width: calc(50% - 1rem)"
+                class="object-fit-cover rounded-3"
+              />
+              <img
+                src="./img/computer.jpg"
+                alt="computer"
+                style="height: 160px; width: calc(33.33% - 1rem)"
+                class="object-fit-cover rounded-3"
+              />
+              <img
+                src="./img/cat.jpg"
+                alt="cat.jpg"
+                style="height: 160px; width: calc(33.33% - 1rem)"
+                class="object-fit-cover rounded-3"
+              />
+              <img
+                src="./img/book.jpg"
+                alt="book.jpg"
+                style="height: 160px; width: calc(33.33% - 1rem)"
+                class="object-fit-cover rounded-3"
+              />
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="experience-tab"
+          >
+            <h2 class="mt-4 fs-4 text-color-primary">🔥 Experience</h2>
+            <div>
+              <div>
+                <div>
+                  <img
+                    src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg"
+                    alt="test"
+                  />
+                </div>
+                <div>
+                  <p>YouTube Row Fixer</p>
+                  <p>Browser extension</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-labelledby="gallery-tab"
+          >
+            c
+          </div>
         </div>
       </section>
     </main>

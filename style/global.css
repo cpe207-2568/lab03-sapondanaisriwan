@@ -1,6 +1,7 @@
 :root {
   --text-primary: #0e0e11;
   --text-secondary: #71717a;
+  --text-active-color: #6290ff;
 }
 
 html,
@@ -18,4 +19,39 @@ body {
 section {
   background-color: #ffffff;
   border: #d4d4d8 1px solid;
+}
+
+ul {
+  border-radius: 0px 0px 16px 16px;
+  border: 1px solid #d4d4d8;
+  border-top: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--text-active-color) !important;
+  background-color: unset !important;
+  border-color: unset !important;
+}
+
+.nav-tabs .nav-link {
+  border: unset !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-primary) !important;
+}
+
+.tab-content {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 10px;
 }
