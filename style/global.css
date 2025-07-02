@@ -3,8 +3,9 @@
   --text-secondary: #71717a;
 }
 
-html, body {
-  background-color: #F7F7F7 !important;
+html,
+body {
+  background-color: #f7f7f7 !important;
 }
 
 .text-color-primary {
@@ -12,4 +13,9 @@ html, body {
 }
 .text-color-secondary {
   color: var(--text-secondary);
+}
+
+section {
+  background-color: #ffffff;
+  border: #d4d4d8 1px solid;
 }
